@@ -1,0 +1,36 @@
+@mixin columnas{
+    @media (max-width: 768px){
+        flex-direction: column;
+        height: 341px;
+        align-items: center;
+    }
+}
+
+@mixin saldo{
+    @media (max-width:768px){
+        width: 100%;
+        flex: 0;
+    }
+}
+
+//header
+@mixin normal{
+    @media (max-width: 1400px){
+        .contenedor__img--create{
+            @include mixin-cambios.size-imagen(22.4px, 22.4px);
+            background-image: url('/assets/img/Icon-2.svg');
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@mixin mobile{
+    @media (max-width: 360px){
+        .contenedor__img--create{
+            background-image: unset;
+            background-image: url(/assets/img/Union.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
