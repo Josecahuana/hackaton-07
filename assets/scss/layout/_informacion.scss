@@ -9,10 +9,15 @@
     height: 160px;
     margin: 0 auto 30px auto;
     gap: 21px;
-    
+    @media (max-width: 650px){
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
     @media (max-width: 360px){
         width: calc(100% - 32px);
         flex-direction: column;
+        margin-bottom: 0;
     }
         .saldo{
             height: 160px;
