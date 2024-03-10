@@ -4,7 +4,7 @@
 @use '../theme/variable';
 
 .ahorro{
-    min-width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(418px, 1fr));
     margin: 24px auto;
