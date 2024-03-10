@@ -119,7 +119,7 @@ body {
   }
 }
 .titulo__heading {
-  width: 383px;
+  width: auto;
   height: 40px;
   color: #121212;
   font-weight: 700;
@@ -128,7 +128,7 @@ body {
   flex: 1;
 }
 .titulo__parrafo {
-  width: 383px;
+  width: auto;
   height: 20px;
   color: #586776;
   font-weight: 400;
@@ -390,7 +390,7 @@ body {
 .ahorro .contenedor .card {
   display: flex;
   align-items: center;
-  width: 370px;
+  max-width: 370px;
   height: 32px;
   gap: 12px;
 }

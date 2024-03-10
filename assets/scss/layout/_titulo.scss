@@ -14,10 +14,10 @@
         margin-bottom: 5px;
     }
     &__heading{
-        @include mc.titulo-style(383px, 40px, #121212, 700, 32px, 40px, 1);
+        @include mc.titulo-style(auto, 40px, #121212, 700, 32px, 40px, 1);
 
     }
     &__parrafo{
-        @include mc.titulo-style(383px, 20px, #586776, 400, 14px, 20px, 0);
+        @include mc.titulo-style(auto, 20px, #586776, 400, 14px, 20px, 0);
     }
 }
