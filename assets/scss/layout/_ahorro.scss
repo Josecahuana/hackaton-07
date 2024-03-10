@@ -9,6 +9,9 @@
     grid-template-columns: repeat(auto-fit, minmax(418px, 1fr));
     margin: 24px auto;
     gap: 43px;
+    @media (max-width:650px){
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
     @media (max-width: 360px){
         width: 328px;
         height: 820px;
