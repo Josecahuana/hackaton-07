@@ -46,6 +46,10 @@ body {
 .header .contenedor__img--create {
   width: 22.4px;
   height: 22.4px;
+  width: 22.4px;
+  height: 22.4px;
+  background-image: url("/assets/img/Icon-2.svg");
+  background-repeat: no-repeat;
 }
 @media (max-width: 1440px) {
   .header .contenedor__img--create {
@@ -65,13 +69,11 @@ body {
     background-size: contain;
   }
 }
-@media (min-width: 1200px) {
-  .header .contenedor__img--text {
-    width: 22.4px;
-    height: 22.4px;
-    background-image: url("/assets/img/Icon-3.svg");
-    background-repeat: no-repeat;
-  }
+.header .contenedor__img--text {
+  width: 22.4px;
+  height: 22.4px;
+  background-image: url("/assets/img/Icon-3.svg");
+  background-repeat: no-repeat;
 }
 @media (max-width: 360px) {
   .header .contenedor__img--text {
