@@ -270,7 +270,7 @@ body {
 }
 @media (max-width: 360px) {
   .information .retiro {
-    min-width: calc(100% - 32px);
+    width: calc(100vw - 32px);
     height: 92px;
     padding: 12px 24px;
     box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.031372549);
