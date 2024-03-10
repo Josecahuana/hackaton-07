@@ -32,7 +32,7 @@
             height: 32px;
             @media (max-width: 1440px){
                     @include mixin-cambios.size-imagen(22.4px, 22.4px);
-                    background-image: url('/assets/img/Icon-2.svg');
+                    background-image: url(/assets/img/Icon-2.svg);
                     background-repeat: no-repeat;
             }
             @media (max-width:360px){
@@ -48,7 +48,7 @@
         }
             .contenedor__img--text{
                 @include mixin-cambios.size-imagen(22.4px, 22.4px);
-                background-image: url('/assets/img/Icon-1.svg');
+                background-image: url(/assets/img/Icon-1.svg);
                 background-repeat: no-repeat;
                 width: 22.4px;
                 height: 22.4px;
